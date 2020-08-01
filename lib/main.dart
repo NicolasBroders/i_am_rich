@@ -13,8 +13,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2019/04/eso1644bsmall__w770.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
